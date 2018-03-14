@@ -13,6 +13,7 @@ jobs:
           POSTGRES_PASSWORD: ""
     steps:
       - checkout
+      - run: echo "------- hello flask------"
       - run: mkdir test-reports
       - run:
           name: Download Selenium
